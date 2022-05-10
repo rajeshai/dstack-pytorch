@@ -51,7 +51,7 @@ def run():
     
 
     model = NeuralNetwork()
-    #model = nn.DataParallel(model)
+    model = nn.DataParallel(model)
     model.to(device)
     print(model)
 
