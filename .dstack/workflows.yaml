@@ -1,0 +1,9 @@
+workflows:
+  - name: train
+    provider: python
+    requirements: requirements.txt
+    python_script: app.py
+    artifacts:
+      - 
+    resources:
+      gpu: ${{ gpu }}
