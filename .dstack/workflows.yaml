@@ -4,6 +4,6 @@ workflows:
     requirements: requirements.txt
     python_script: app.py
     artifacts:
-      - 
+      - model
     resources:
       gpu: ${{ gpu }}
